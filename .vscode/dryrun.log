@@ -1,0 +1,8 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+'\\wsl$\Ubuntu-20.04\home\d2h10s\repository\DsOs'
+���� ��θ� ���� ���͸��� �Ͽ� CMD.EXE�� ����Ǿ����ϴ�. UNC ��δ�
+�������� �ʽ��ϴ�. Windows ���͸��� �⺻���� �մϴ�.
+
+'make.exe'��(��) ���� �Ǵ� �ܺ� ����, ������ �� �ִ� ���α׷�, �Ǵ�
+��ġ ������ �ƴմϴ�.
+
