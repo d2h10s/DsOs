@@ -1,7 +1,380 @@
-make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
-'\\wsl$\Ubuntu-20.04\home\d2h10s\repository\DsOs'
-���� ��θ� ���� ���͸��� �Ͽ� CMD.EXE�� ����Ǿ����ϴ�. UNC ��δ�
-�������� �ʽ��ϴ�. Windows ���͸��� �⺻���� �մϴ�.
-'make.exe'��(��) ���� �Ǵ� �ܺ� ����, ������ �� �ִ� ���α׷�, �Ǵ�
-��ġ ������ �ƴմϴ�.
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
 
+# Make data base, printed on Sat May 14 03:31:19 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# makefile (from 'makefile', line 7)
+AS = arm-none-eabi-as
+# environment
+LC_ALL = C
+# makefile (from 'makefile', line 11)
+LINKER_SCRIPT = DsOs.ld
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-3fafe791-b182-475f-8453-c70dcd993645.sock
+# environment
+VSCODE_CWD = /home/kali
+# environment
+LESS_TERMCAP_me = [0m
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from 'makefile', line 17)
+dsos_bin = build/$(OSNAME).bin
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/kali/Repository/DsOs
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share
+# environment
+OLDPWD = /home/kali
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/kali/.config/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+LANG = C
+# environment
+POWERSHELL_UPDATECHECK = Off
+# environment
+XAUTHORITY = /home/kali/.Xauthority
+# default
+.LOADED := 
+# environment
+LESS_TERMCAP_md = [1;36m
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile (from 'makefile', line 14)
+ASM_OBJS = $(patsubst boot/%.S,build/%.o,$(ASM_SRCS))
+# makefile
+MAKEFLAGS = pqrR
+# environment
+LESS_TERMCAP_so = [01;33m
+# makefile
+CURDIR := /home/kali/Repository/DsOs
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+LESS_TERMCAP_ue = [0m
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-XXXXXXP4H474/agent.782
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = lightdm-xsession
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST := makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 11891
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'makefile', line 3)
+OSNAME = DsOs
+# environment
+SESSION_MANAGER = local/kali:@/tmp/.ICE-unix/782,unix/kali:/tmp/.ICE-unix/782
+# automatic
+*F = $(notdir $*)
+# environment
+QT_QPA_PLATFORMTHEME = qt5ct
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"738ac08552cca045871a73764b8c446f.ko","_translationsConfigFile":"/home/kali/.config/Code/clp/738ac08552cca045871a73764b8c446f.ko/tcf.json","_cacheRoot":"/home/kali/.config/Code/clp/738ac08552cca045871a73764b8c446f.ko","_resolvedLanguagePackCoreLocation":"/home/kali/.config/Code/clp/738ac08552cca045871a73764b8c446f.ko/da15b6fd3ef856477bf6f4fb29ba1b7af717770d","_corruptedFile":"/home/kali/.config/Code/clp/738ac08552cca045871a73764b8c446f.ko/corrupted.info","_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# environment
+LESS_TERMCAP_us = [1;32m
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=fcitx
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/kali/.dotnet/tools
+# makefile (from 'makefile', line 2)
+MCPU = cortex-a8
+# environment
+LESS_TERMCAP_se = [0m
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+COMMAND_NOT_FOUND_INSTALL_PROMPT = 1
+# environment
+LESS_TERMCAP_mb = [1;31m
+# makefile (from 'makefile', line 13)
+ASM_SRCS = $(wildcard boot/*.S)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_SEAT = seat0
+# environment
+GTK_IM_MODULE = fcitx
+# environment
+XDG_CURRENT_DESKTOP = XFCE
+# environment
+LS_COLORS = :ow=30;44:
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = lightdm-xsession
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = XFCE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+CLUTTER_IM_MODULE = fcitx
+# environment
+LOGNAME = kali
+# environment
+XDG_VTNR = 7
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'makefile', line 1)
+ARCH = armv7-a
+# environment
+DISPLAY = :0.0
+# environment
+USER = kali
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+SSH_AGENT_PID = 853
+# environment
+_ = /usr/share/code/code
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+POWERSHELL_TELEMETRY_OPTOUT = 1
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/kali
+# environment
+QT_IM_MODULE = fcitx
+# environment
+_JAVA_OPTIONS = -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-f2138f4e-1.67.1-main.sock
+# environment
+XDG_SESSION_ID = 2
+# environment
+PANEL_GDK_CORE_DEVICE_EVENTS = 0
+# environment
+DOTNET_CLI_TELEMETRY_OPTOUT = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# makefile (from 'makefile', line 8)
+LD = arm-none-eabi-ld
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm/data/kali
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'makefile', line 6)
+CC = arm-none-eabi-gcc
+# environment
+XDG_MENU_PREFIX = xfce-
+# makefile (from 'makefile', line 16)
+dsos = build/$(OSNAME).axf
+# makefile (from 'makefile', line 9)
+OC = arm-none-eabi-objcopy
+# environment
+GDMSESSION = lightdm-xsession
+# variable set hash-table stats:
+# Load=118/1024=12%, Rehash=0, Collisions=10/159=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# boot (device 2049, inode 785626): 3 files, no impossibilities.
+# . (device 2049, inode 265634): 9 files, no impossibilities.
+
+# 12 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+build/%.o: boot/%.S
+#  recipe to execute (from 'makefile', line 41):
+	mkdir -p $(shell dirname $@)
+	$(AS) -march=$(ARCH) -mcpu=$(MCPU) -g -o $@ $<
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+debug: build/DsOs.axf
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 30):
+	qemu-system-arm -M realview-pb-a8 -kernel $(dsos) -S -gdb tcp::1234,ipv4
+
+ 
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 24):
+	rm -fr build
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: build/DsOs.axf
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+run: build/DsOs.axf
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 27):
+	qemu-system-arm -M realview-pb-a8 -kernel $(dsos)
+
+# Not a target:
+DsOs.ld:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 02:17:38.199562891
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 03:11:27.313559764
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+boot/Entry.S:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 03:04:56.851328495
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: all clean run debug
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/Entry.o: boot/Entry.S
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Entry'
+#  Last modified 2022-05-14 03:07:47.139318789
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 41):
+	mkdir -p $(shell dirname $@)
+	$(AS) -march=$(ARCH) -mcpu=$(MCPU) -g -o $@ $<
+
+gdb:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 33):
+	arm-none-eabi-gdb
+
+build/DsOs.axf: build/Entry.o DsOs.ld
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-14 03:07:47.143318816
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 36):
+	$(LD) -n -T $(OSNAME).ld -nostdlib -o $(dsos) $(ASM_OBJS)
+	$(OC) -O binary $(dsos) $(dsos_bin)
+
+# files hash-table stats:
+# Load=13/1024=1%, Rehash=0, Collisions=0/40=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 26 / storage = 213 B / avg = 8 B
+# current buf: size = 8162 B / used = 213 B / count = 26 / avg = 8 B
+
+# strcache performance: lookups = 50 / hit rate = 48%
+# hash-table stats:
+# Load=26/8192=0%, Rehash=0, Collisions=0/50=0%
+# Finished Make data base on Sat May 14 03:31:19 2022
+
+ 

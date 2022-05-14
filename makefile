@@ -26,12 +26,6 @@ clean:
 run: $(dsos)
 	qemu-system-arm -M realview-pb-a8 -kernel $(dsos)
 
-debug_o:
-	hexdump ./boot/Entry.bin
-
-debug_axf:
-	arm-none-eabi-objdump -D $(dsos)
-
 debug: $(dsos)
 	qemu-system-arm -M realview-pb-a8 -kernel $(dsos) -S -gdb tcp::1234,ipv4
 

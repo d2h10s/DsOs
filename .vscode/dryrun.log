@@ -1,8 +1,8 @@
-make.exe --dry-run --always-make --keep-going --print-directory
-'\\wsl$\Ubuntu-20.04\home\d2h10s\repository\DsOs'
-���� ��θ� ���� ���͸��� �Ͽ� CMD.EXE�� ����Ǿ����ϴ�. UNC ��δ�
-�������� �ʽ��ϴ�. Windows ���͸��� �⺻���� �մϴ�.
-
-'make.exe'��(��) ���� �Ǵ� �ܺ� ����, ������ �� �ִ� ���α׷�, �Ǵ�
-��ġ ������ �ƴմϴ�.
-
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/kali/Repository/DsOs'
+mkdir -p build
+arm-none-eabi-as -march=armv7-a -mcpu=cortex-a8 -g -o build/Entry.o boot/Entry.S
+arm-none-eabi-ld -n -T DsOs.ld -nostdlib -o build/DsOs.axf build/Entry.o
+arm-none-eabi-objcopy -O binary build/DsOs.axf build/DsOs.bin
+make: Leaving directory '/home/kali/Repository/DsOs'
+ 
