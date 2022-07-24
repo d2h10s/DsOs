@@ -1,6 +1,6 @@
 ARCH = armv7-a
 MCPU = cortex-a8
-OSNAME = DsOs
+OSNAME = DsOS
 
 # tool chanins
 CC = arm-none-eabi-gcc

@@ -1,8 +1,9 @@
 make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/kali/Repository/DsOs'
+make: Entering directory `/Users/hs.choi/Repository/DsOs'
 mkdir -p build
 arm-none-eabi-as -march=armv7-a -mcpu=cortex-a8 -g -o build/Entry.o boot/Entry.S
-arm-none-eabi-ld -n -T DsOs.ld -nostdlib -o build/DsOs.axf build/Entry.o
-arm-none-eabi-objcopy -O binary build/DsOs.axf build/DsOs.bin
-make: Leaving directory '/home/kali/Repository/DsOs'
+ 
+arm-none-eabi-ld -n -T DsOS.ld -nostdlib -o build/DsOS.axf build/Entry.o
+arm-none-eabi-objcopy -O binary build/DsOS.axf build/DsOS.bin
+make: Leaving directory `/Users/hs.choi/Repository/DsOs'
  
