@@ -78,3 +78,23 @@ file 명령은 ELF 파일예 포함되어 있는 디버깅 심볼을 읽습니�
 ## aa 
 ARM 코어에 전원이 들어가면 ARM 코어가 가장 먼저 하는 일은 reset vector에 있는 명령을 수행하는 것입니다.  
 reset vector는 0x00000000입니다. 따라서 전원이 들어오면 0x00000000에서 32비트를 읽어 명령을 실행합니다.
+
+***
+## Debugging
+
+### 1. view
+
+view symbols data
+```
+(gdb) list
+```
+
+view registers, can be abbreviated as `i r`
+```
+(gdb) info register
+```
+
+step PC, step, can be abbreviated as `s`
+```
+(gdb) step
+```

@@ -1,1 +1,1 @@
-{"buildTargets":["all","build/DsOS.axf","build/Entry.o","clean","debug","gdb","run"],"launchTargets":["/Users/hs.choi/Repository/DsOs/build>DsOS.axf()"],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
+{"buildTargets":["all","build/DsOS.axf","build/Entry.o","clean","debug","gdb","run"],"launchTargets":["/Users/eugene/Repository/DsOs/build>DsOS.axf()"],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
